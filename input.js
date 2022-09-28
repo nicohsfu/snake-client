@@ -36,6 +36,10 @@ const handleUserInput = function(key) {
   if (key === 'd') {
     connection.write("Move: right");
   }
+  
+  if (key === 'q') {
+    connection.write("Say: Hey Sam");
+  }
 
   // "Move: up" - move up one square (unless facing down)
   // "Move: down" - move down one square (unless facing up)
