@@ -3,7 +3,7 @@ const net = require('net');
 // establishes a connection with the game server
 const connect = function() {
 
-  console.log("Connecting ..."); // Gary connect
+  console.log("Connecting ..."); 
 
   const conn = net.createConnection({
     host: '165.227.47.243',  // provided IP address here
@@ -16,7 +16,7 @@ const connect = function() {
     conn.write("Name: Nic");
     // conn.write("Move: up");
 
-    //     "Move: up" - move up one square (unless facing down)
+    // "Move: up" - move up one square (unless facing down)
     // "Move: down" - move down one square (unless facing up)
     // "Move: left" - move left one square (unless facing right)
     // "Move: right" - move left one square (unless facing left)
