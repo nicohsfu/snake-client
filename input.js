@@ -38,7 +38,7 @@ const handleUserInput = function(key) {
   }
   
   if (key === 'q') {
-    connection.write("Say: Hey Sam");
+    connection.write("Say: Canned message");
   }
 
   // "Move: up" - move up one square (unless facing down)
