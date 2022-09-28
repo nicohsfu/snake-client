@@ -16,11 +16,6 @@ const connect = function() {
     console.log("Connection is successfully established!");
     conn.write("Name: Nic");
     // conn.write("Move: up");
-
-    // "Move: up" - move up one square (unless facing down)
-    // "Move: down" - move down one square (unless facing up)
-    // "Move: left" - move left one square (unless facing right)
-    // "Move: right" - move left one square (unless facing left)
   });
 
   // Update the connect function to handle incoming data and console.log it for the player.
